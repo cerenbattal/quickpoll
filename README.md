@@ -14,6 +14,7 @@ QuickPoll is a modern, responsive web application for creating and managing poll
 
 ## Project Structure
 
+```
 src/
 ├── components/ # React components
 │ ├── Home.jsx # Landing page
@@ -27,7 +28,7 @@ src/
 ├── services/ # Business logic and data handling
 │ └── pollService.js # Poll data management
 └── App.jsx # Main application component
-
+```
 
 ## Components
 
