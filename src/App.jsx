@@ -9,7 +9,7 @@ import PollSuccess from './components/PollSuccess'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/quickpoll/">
       <div className="min-h-screen bg-gray-100">
         <Navigation />
         <main className="container mx-auto px-4 py-8">

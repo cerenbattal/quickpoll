@@ -14,7 +14,7 @@ function PollSuccess() {
     }
   }, [pollId])
 
-  const pollUrl = `${window.location.origin}/poll/${pollId}`
+  const pollUrl = `${window.location.origin}/quickpoll/poll/${pollId}`
 
   const handleCopyLink = async () => {
     try {
